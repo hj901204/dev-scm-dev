@@ -1,0 +1,72 @@
+html, body, div, h5, h6, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.member-manage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .manage-header {
+        height: 52px;
+        width: 100%;
+        line-height: 52px;
+        background-color: #fff;
+    }
+
+    .manage-content{
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        .manage-content-left {
+            width: 15%;
+            height: 100%;
+        }
+
+        .manage-content-right {
+            width: 80%;
+            height: 100%;
+        }
+
+    }
+}
+
+.tableHeader{
+    width: 100%;
+    height: 52px;
+    line-height:52px;
+    background-color: #fff;
+ 
+    .head-line-one{
+        height: 52px;
+        line-height: 52px;
+        padding-left: 10px;
+
+        span{
+            height: 28px;
+            line-height: 28px;
+            display: inline-block;
+            background-color: #7196cb;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #fff;
+            margin-right: 10px;
+            padding: 0 10px;
+        }
+    }
+
+    .head-line-two{
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        display: flex;
+        flex-direction: row;
+
+    }
+    
+}
+
+

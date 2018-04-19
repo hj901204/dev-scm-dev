@@ -1,0 +1,186 @@
+@import "./sidebar.scss";
+$borderColor:#D3D3D3;
+$sideBarColor:#4b4b4b;
+.ew-layout{
+    background:#e7e8ea;
+    .manage-content {
+        .manage-breadcrumb {
+            padding: 5px 0;
+        }
+        .manage-prompt{
+            background: #fff;
+            p{
+                padding:16px 0 16px 48px ;
+                color:#737373;
+            }
+        }
+
+        .managetitle{
+            padding:14px 28px 0;
+            .manage-box{
+                border-radius: 2px;
+                background:#fff;
+              box-shadow: 0px 0px 11px #ccc;
+                .managehead {
+                    justify-content: space-between;
+                    padding: 20px;
+                  box-shadow: 0px 0px 11px #ccc;
+                  button{
+                    float:right;
+                  }
+                }
+                .manage-body {
+                    padding: 20px;
+
+                    .ant-table-wrapper{
+                        border:1px solid $borderColor;
+                    }
+
+                }
+            }
+        }
+
+
+    }
+}
+
+.ant-modal{
+    width:783px !important;
+   .ant-modal-content{
+       .ant-modal-body {
+         padding: 30px 60px;
+           .ant-row{
+             margin:0 0 10px 0;
+             .ant-form-item-label{
+               label {
+                 width: 115px;
+                 display: inline-block;
+                 text-align: right;
+               }
+             }
+             .ant-form-item-control {
+               width: 200px;
+                 textarea{
+                     height: auto;
+                     resize: none;
+                 }
+
+             }
+             .companyDesc,.companyLogo{
+                 .ant-form-item-control{
+                   width:534px;
+                 }
+             }
+             .inputphoneO,.contacts{
+                 .ant-form-item-control{
+                   width:80px;
+                 }
+
+             }
+             .inputphoneN,.contactsPhone{
+               margin-left:10px;
+               .ant-form-item-control{
+                 width:45px;
+               }
+             }
+             .industrybox{
+                 .ant-select{
+                   width: 534px !important;
+                 }
+             }
+
+           }
+       }
+   }
+
+
+}
+
+.sidebarcon{
+    font-size:14px;
+    color:$sideBarColor;
+    .sidebox{
+        height:60px;
+
+        .sidetitle{
+            b{
+                padding:20px 0 20px 35px;
+                display: inline-block;
+            }
+            .ant-btn-primary {
+                margin-right: 20px;
+            }
+            .sidebutton{
+                text-align:right;
+                height: 60px;
+                line-height: 60px;
+            }
+            .xicon{
+                float: right;
+                height: 60px;
+                width: 50px;
+                line-height: 60px;
+                text-align: center;
+                background:#d6d6d6;
+                margin-left:6px;
+              a{
+                display:inline-block;
+                width:100%;
+                height:100%;
+              }
+            }
+        }
+    }
+
+    .companymargin{
+        height:8px;
+        background:#f4f4f4;
+
+    }
+    .companylogo{
+        height:100px;
+        margin:20px 0 20px 20px;
+        div{
+          width:200px;
+          height:100px;
+          background: #ccc;
+          margin-left:58px;
+        }
+    }
+    .companylist{
+        padding-left: 35px;
+        ul{
+            >li{
+                font-size:12px;
+                margin-bottom:8px;
+                div{
+                    padding-left:50px;
+                    font-weight: bold;
+                    font-size:14px;
+                    margin-bottom:8px;
+
+                }
+                ol{
+                    overflow: hidden;
+                    padding-left:50px;
+                    li{
+                        float: left;
+                    }
+                }
+                >span{
+                    width:105px;
+                    display:inline-block;
+                    text-align: right;
+                }
+                b{
+                    padding-left:10px;
+                    font-weight: normal;
+                }
+            }
+        }
+
+    }
+
+
+}
+
